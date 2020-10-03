@@ -67,7 +67,7 @@
             </div>
           </div>
     </div> --}}
-<section class="container-fluid">
+<!-- <section class="container-fluid">
 <div class="row">
       <div class="col-6 col-md-2 col-lg-2 bg-danger ">
         <img src="" class="img-fluid">
@@ -95,7 +95,7 @@
     </div>
     </div>
 
-</section>
+</section> -->
     
     
      <section class="about py-5" id="about">
@@ -470,6 +470,7 @@
     </div>
 </section> --}}
 
+<div class="grad-bar"></div>
 
 <section class="bg-primary">
       <article class="py-5 text-center " > 
