@@ -26,16 +26,16 @@
     <li data-target="#demo" data-slide-to="1"></li>
     <li data-target="#demo" data-slide-to="2"></li>
   </ul>
-  <div class="carousel-inner">
+  <div class="carousel-inner" >
     <div class="carousel-item active">
-      <img src="/img/image1.jpg" alt="Los Angeles" width="1100" height="500">
+      <img src="{{ asset('/img/SLogoCarosal.png')}}" alt="Los Angeles" width="1100" height="500">
       <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>We had such a great time in LA!</p>
+        <!-- <h3>Los Angeles</h3>
+        <p>We had such a great time in LA!</p> -->
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="/img/image2.jpg" alt="Chicago" width="1100" height="500">
+      <img src="{{ asset('/img/corousal2.jpeg')}}" alt="Chicago" width="1100" height="500">
       <div class="carousel-caption">
         <h3>Chicago</h3>
         <p>Thank you, Chicago!</p>
@@ -112,7 +112,7 @@
         </div>
         <div class="col-6  mx-auto col-md-6 align-self-center my-5">
           <div class="about-img__container">
-            <img src="img/sweets-1.jpeg" class="img-fluid" alt="">
+            <img src="{{ asset('/img/about.png')}}" class="img-fluid" alt="">
           </div>
         </div>
       </div>
@@ -469,8 +469,25 @@
       </div>
     </div>
 </section> --}}
-
 <div class="grad-bar"></div>
+
+<section>
+  <div class="container mb-5">
+  <div class="row">
+    <!-- <div class="col-md-12"> -->
+      <div class="col-md-6 pt-3">
+        Welcome To our Family, We Serve Smile & Sweetness!!!
+      </div>
+      <div class="col-md-6 pt-3  mx-auto align-self-center ">
+        <div class="about-img__container">
+        <div class="embed-responsive embed-responsive-16by9 shadow-lg bg-white ">
+          <iframe class="embed-responsive-item" src="{{ asset('/videos/intro.mp4')}}" allowfullscreen></iframe width="1100" height="500">
+      </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
 
 <section class="bg-primary">
       <article class="py-5 text-center " > 

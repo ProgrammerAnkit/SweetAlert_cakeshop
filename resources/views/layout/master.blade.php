@@ -411,8 +411,8 @@ input {
  <div class="nav-wrapper">
   <div class="grad-bar"></div>
   <nav class="navbar">
-    <!-- <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Bluestar_%28bus_company%29_logo.svg/1280px-Bluestar_%28bus_company%29_logo.svg.png" alt="Company Logo"> -->
-    <a class="navbar-brand" href="#">Cake Online</a>
+    <img style="height: 40px" src="{{ asset('/img/sLogo.png')}}">
+    <!-- <a class="navbar-brand" href="#">Cake Online</a> -->
     <div class="menu-toggle" id="mobile-menu">
       <span class="bar"></span>
       <span class="bar"></span>
@@ -422,7 +422,7 @@ input {
       <li class="nav-item"><i class="fa fa-home"></i> <a href="#">Home</a></li>
       <li class="nav-item"><i class="fa fa-about"></i> <a href="#">About</a></li>
       <li class="nav-item"><i class="fa fa-about"></i> <a href="#">Work</a></li>
-      <li class="nav-item"><i class="fa fa-about"></i> <a href="#">Careers</a></li>
+      <li class="nav-item"><i class="fa fa-about"></i> <a href="{{ url('/loginpage')}}">Login</a></li>
       <li class="nav-item"><i class="fa fa-phone"></i> <a href="#">Contact Us</a></li>
       <li><i class="fa fa-search" id="search-icon"></i> <input class="search-input" type="text" placeholder="Search..."></li>
     </ul>
