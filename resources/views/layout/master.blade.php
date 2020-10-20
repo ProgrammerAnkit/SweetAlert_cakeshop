@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="/css/shop.css"> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style type="text/css">
-    body{background-image:url({{asset('/img/background')}}) }
+    body{background: linear-gradient(to bottom, #cc00ff 7%, #66ffff 100%)}
 * {
   margin: 0;
   padding: 0;
@@ -427,6 +427,8 @@ input {
       <li><i class="fa fa-search" id="search-icon"></i> <input class="search-input" type="text" placeholder="Search..."></li>
     </ul>
   </nav>
+  <div class="grad-bar"></div>
+
   </div>
 </div>
 

@@ -2,7 +2,7 @@
 
 @section('content')
 
-
+<!-- <section style="background: linear-gradient(to bottom, #cc00ff 7%, #66ffff 100%)"> </section> -->
  <section class="">
    <div class="smallnav-size">
       <div class="smallnav1">
@@ -98,13 +98,13 @@
 </section> -->
     
     
-     <section class="about py-5" id="about">
+     <section class="about" id="about">
     <div class="container">
 
       <div class="row">
         <div class="col-6  mx-auto col-md-6 my-5">
           <h1 class="text-capitalize">about <strong class="banner-title ">us</strong></h1>
-          <p class="my-4 text-muted w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aliquam voluptas
+          <p class="my-4 w-75 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aliquam voluptas
             beatae vitae expedita consectetur nesciunt quia deserunt asperiores facere fuga dicta fugiat corrupti et omnis
             porro at dolorum! Ad!</p>
           <a href="#" class="btn btn-outline-secondary btn-black text-uppercase ">explore</a>
@@ -120,7 +120,7 @@
   </section>
 
 
- <section id="store" class="store py-5">
+ <section id="store" class="store py-5" >
 
     <div class="container">
       <!-- section title -->
@@ -472,7 +472,7 @@
 <div class="grad-bar"></div>
 
 <section>
-  <div class="container mb-5">
+  <div class="container pb-3">
   <div class="row">
     <!-- <div class="col-md-12"> -->
       <div class="col-md-6 pt-3">
@@ -489,9 +489,9 @@
   </div>
 </section>
 
-<section class="bg-primary">
+<section class="bg-primary pt-2" style="background-image: url({{ asset('/img/image60.png')}})">
       <article class="py-5 text-center " > 
-          <div class="  text-white">
+          <div class="  text-white" >
             <h3>12345678</h3>
             <p>If you wanna best service call us now</p>
             <button class="btn btn-warning">Contact Now</button>
