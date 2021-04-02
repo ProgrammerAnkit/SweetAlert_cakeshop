@@ -8,7 +8,8 @@
   {{-- <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet"> --}}
     {{-- <link rel="stylesheet" href="/css/bootstrap.min.css"> --}}
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/shop.css"> 
+  {{-- <link rel="stylesheet" href="/css/shop.css">  --}}
+<link rel="stylesheet" href="{{ URL::to('/css/shop.css')}}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style type="text/css">
     body{background: linear-gradient(to bottom, #cc00ff 7%, #66ffff 100%)}
@@ -418,15 +419,32 @@ input {
       <span class="bar"></span>
       <span class="bar"></span>
     </div>
-    <ul class="nav no-search">
+    <ul class="nav">
       <li class="nav-item"><i class="fa fa-home"></i> <a href="#">Home</a></li>
       <li class="nav-item"><i class="fa fa-about"></i> <a href="#">About</a></li>
-      <li class="nav-item"><i class="fa fa-about"></i> <a href="#">Work</a></li>
+      <li class="nav-item"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        <a href="#">Shoopping</a></li>
+
       <li class="nav-item"><i class="fa fa-about"></i> <a href="{{ url('/loginpage')}}">Login</a></li>
       <li class="nav-item"><i class="fa fa-phone"></i> <a href="#">Contact Us</a></li>
-      <li><i class="fa fa-search" id="search-icon"></i> <input class="search-input" type="text" placeholder="Search..."></li>
+      <li class="nav-item"><i class="fa fa-user-circle-o" ></i><a href="#">User</a></li>
+      {{-- <li class="nav-item ">
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Tutorials
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+          </ul>
+        </div>
+      </li> --}}
     </ul>
+    
   </nav>
+  
   <div class="grad-bar"></div>
 
   </div>

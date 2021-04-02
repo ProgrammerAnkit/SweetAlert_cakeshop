@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('loginpage', function () {
     return view('Froent-End.login');
 });
+Route::view('view','shop');
+
+// Route::get([
+//     'uses'=>'ProductController@getIndex',
+//     'as'=>'product.index'
+// ]);
+
+Route::get('product','ProductController@getIndex');

@@ -231,7 +231,7 @@
         <!-- single item -->
         <div class="col-6 col-sm-6 col-lg-4 mx-auto my-3 store-item doughnuts" data-item="dougnuts">
           <div class="card shadow">
-            <div class="img-container">
+            <div class="img-container imagepath">
               <img src="img/doughnut-1.jpeg" class="card-img-top store-img" alt="">
               <span class="store-item-icon">
                 <i class="fa fa-shopping-cart"></i>
@@ -239,8 +239,8 @@
             </div>
             <div class="card-body">
               <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">dougnut item</h5>
-                <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">5</strong></h5>
+                <h5 id="store-item-name" class="title">dougnut item</h5>
+                <h5 class="store-item-value price">$ <strong id="store-item-price" class="font-weight-bold">5</strong></h5>
 
               </div>
             </div>
@@ -253,7 +253,7 @@
         <!-- single item -->
         <div class="col-6  col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
           <div class="card shadow ">
-            <div class="img-container">
+            <div class="img-container imagepath">
               <img src="img/sweets-2.jpeg" class="card-img-top store-img" alt="">
               <span class="store-item-icon">
                 <i class="fa fa-shopping-cart"></i>
